@@ -1,2 +1,1 @@
-const titleCase = (str) =>
-  str.toLowerCase().replace(/\b\w/g, (char) => char.toUpperCase());
+const compact = (arr) => arr.filter(Boolean);
